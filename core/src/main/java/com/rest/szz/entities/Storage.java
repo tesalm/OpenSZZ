@@ -24,7 +24,7 @@ public class Storage {
 	private Git git = null;
 	private final Pattern pGit = Pattern.compile(".+\\.git$");
 	
-	public Storage(String projectName) {
+	public Storage() {
 		fileStoragePath = Paths.get(
 				System.getProperty("user.dir") 
 				);
