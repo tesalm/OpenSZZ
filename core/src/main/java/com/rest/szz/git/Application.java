@@ -27,8 +27,7 @@ public class Application {
 	private final LinkManager linkManager = new LinkManager();
     private PrintWriter writer; 
     public boolean hasFinished = false;
-    
-    private String projectName;
+
 	
 		
 	@Async
